@@ -1,0 +1,44 @@
+{
+    "title" : "Quest Category",
+    "category" : "setting",
+    "format" : "SetHeadQuest(%d);",
+    "handle" : ["quest_category_id"],
+    "fields" : [
+        {
+            "id" : "quest_category_id",
+            "type" : "select",
+            "required" : true,
+            "options" : [
+                {
+                    "value" : 1992,
+                    "text" : "Event"
+                },
+                {
+                    "value" : 1993,
+                    "text" : "1st Jobchange"
+                },
+                {
+                    "value" : 1994,
+                    "text" : "2nd Jobchange"
+                },
+                {
+                    "value" : 1995,
+                    "text" : "Dungeon"
+                },
+                {
+                    "value" : 1996,
+                    "text" : "Scenario"
+                },
+                {
+                    "value" : 1997,
+                    "text" : "General",
+                    "selected" : true
+                },
+                {
+                    "value" : 1998,
+                    "text" : "PK Quest"
+                }
+            ]
+        }
+    ]
+}

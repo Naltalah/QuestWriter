@@ -1,0 +1,63 @@
+{
+    "title" : "Reward Item 1",
+    "category" : "settings",
+    "format" : "SetEndRewardItem(%d, 0, %d, %s, %d%s);",
+    "fields" : [
+        {
+            "id" : "endreward_item_01_sex",
+            "type" : "select",
+            "options" : [
+                {
+                    "value" : -1,
+                    "text" : "Both Sexes",
+                    "selected" : true
+                },
+                {
+                    "value" : 0,
+                    "text" : "Male"
+                },
+                {
+                    "value" : 1,
+                    "text" : "Female"
+                }
+            ]
+        },
+        {
+            "id" : "endreward_item_01_job",
+            "type" : "select",
+            "options" : [
+                {
+                    "value" : -1,
+                    "text" : "All Jobs",
+                    "selected" : true
+                }
+            ]
+        },
+        {
+            "id" : "endreward_item_01_itemid",
+            "type" : "input",
+            "placeholder" : "Item-ID",
+            "small":true
+        },
+        {
+            "id" : "endreward_item_01_amount",
+            "type" : "input",
+            "placeholder" : "Amount",
+            "small":true
+        },
+        {
+            "id" : "endreward_item_01_isbound",
+            "type" : "checkbox",
+            "default" : "Is Bound?",
+            "on" : " ,2",
+            "off" : ""
+        }
+    ],
+    "handle" : [
+        "endreward_item_01_sex",
+        "endreward_item_01_job",
+        "endreward_item_01_itemid",
+        "endreward_item_01_amount",
+        "endreward_item_01_isbound"
+    ]
+}

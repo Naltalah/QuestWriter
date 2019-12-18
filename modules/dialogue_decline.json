@@ -1,0 +1,16 @@
+{
+    "title" : "Text On Decline",
+    "fields" : [
+        {
+            "id" : "quest_decline_text",
+            "type" : "textarea",
+            "required" : true,
+            "default" : "",
+            "placeholder" : "This text will be shown when the player declines the quest",
+            "convert_text" : true
+        }
+    ],
+    "format" : "SetDialog(QSAY_BEGIN_NO,%s);",
+    "category" : "dialogue",
+    "handle" : ["quest_decline_text"]
+}

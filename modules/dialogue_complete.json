@@ -1,0 +1,16 @@
+{
+    "title" : "Text On Complete",
+    "fields" : [
+        {
+            "id" : "quest_complete_text",
+            "type" : "textarea",
+            "required" : true,
+            "default" : "",
+            "placeholder" : "This text will be shown when the player has completed the quest",
+            "convert_text" : true
+        }
+    ],
+    "format" : "SetDialog(QSAY_END_COMPLETE1,%s);",
+    "category" : "dialogue",
+    "handle" : ["quest_complete_text"]
+}

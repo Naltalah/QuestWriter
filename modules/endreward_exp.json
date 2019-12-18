@@ -1,0 +1,21 @@
+{
+    "title":"Reward EXP",
+    "category":"setting",
+    "format":"SetEndRewardEXP(%d,%d);",
+    "handle":["endreward_exp_min","endreward_exp_max"],
+    "fields":[
+        {
+            "id":"endreward_exp_min",
+            "type":"input",
+            "small":true,
+            "bind":"endreward_exp_max",
+            "placeholder":"Min EXP"
+        },
+        {
+            "id":"endreward_exp_max",
+            "type":"input",
+            "small":true,
+            "placeholder":"Max EXP"
+        }
+    ]
+}

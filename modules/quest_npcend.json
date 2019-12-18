@@ -1,0 +1,14 @@
+{
+    "title" : "Ending NPC",
+    "category" : "setting",
+    "format" : "SetEndCondCharacter(\"%s\");",
+    "handle" : ["quest_npcend_id"],
+    "fields" : [
+        {
+            "type" : "input",
+            "id" : "quest_npcend_id",
+            "placeholder" : "Ending NPC",
+            "required":true
+        }
+    ]
+}

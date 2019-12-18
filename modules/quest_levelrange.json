@@ -1,0 +1,22 @@
+{
+    "title" : "Quest Level Range",
+    "category" : "setting",
+    "format" : "SetBeginCondLevel(%d,%d);",
+    "handle" : ["quest_levelrange_min","quest_levelrange_max"],
+    "fields" : [
+        {
+            "type" : "input",
+            "id":"quest_levelrange_min",
+            "required":true,
+            "placeholder":"Min. Level",
+            "default":"1"
+        },
+        {
+            "type" : "input",
+            "id" : "quest_levelrange_max",
+            "required": true,
+            "placeholder":"Max. Level",
+            "default":200
+        }
+    ]
+}

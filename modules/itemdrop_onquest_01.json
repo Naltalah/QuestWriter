@@ -1,0 +1,42 @@
+{
+    "title" : "Drop while on Quest 1",
+    "category" : "setting",
+    "format" : "QuestItem(%s, %s, %d, %d);",
+    "handle" : ["itemdrop_onquest_01_moverid","itemdrop_onquest_01_itemid","itemdrop_onquest_01_droprate","itemdrop_onquest_01_amount"],
+    "fields" : [
+        {
+            "id" : "itemdrop_onquest_01_moverid",
+            "type" : "input",
+            "placeholder" : "Monster ID",
+            "small":true
+        },
+        {
+            "id" : "itemdrop_onquest_01_itemid",
+            "type" : "input",
+            "placeholder" : "Item ID",
+            "small":true
+        },
+        {
+            "id" : "itemdrop_onquest_01_droprate",
+            "type" : "select",
+            "options" : [
+                {"value":"3000000000","text":"100%"},
+                {"value":"2250000000","text":"75%"},
+                {"value":"1500000000","text":"50%"},
+                {"value":"750000000","text":"25%"},
+                {"value":"300000000","text":"10%"},
+                {"value":"150000000","text":"5%"},
+                {"value":"30000000","text":"1%"},
+                {"value":"15000000","text":"0.5%"},
+                {"value":"3000000","text":"0.1%"}
+            ],
+            "small":true
+        },
+        {
+            "id":"itemdrop_onquest_01_amount",
+            "type":"input",
+            "placeholder":"Amount",
+            "small":true
+        }
+    ]
+}

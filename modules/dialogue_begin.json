@@ -1,0 +1,16 @@
+{
+    "title" : "Text On Begin",
+    "fields" : [
+        {
+            "id" : "quest_begin_text",
+            "type" : "textarea",
+            "required" : true,
+            "default" : "",
+            "placeholder" : "This text will be shown when the player first talks to the NPC",
+            "convert_text" : true
+        }
+    ],
+    "format" : "SetDialog(QSAY_BEGIN1,%s);",
+    "category" : "dialogue",
+    "handle" : ["quest_begin_text"]
+}

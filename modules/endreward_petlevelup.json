@@ -1,0 +1,15 @@
+{
+    "title":"Pet Level-Up",
+    "category":"setting",
+    "format":"%s",
+    "handle":["endreward_petlevelup"],
+    "fields":[
+        {
+            "id":"endreward_petlevelup",
+            "type":"checkbox",
+            "default":"Activate",
+            "on":"SetEndRewardPetLevelup()",
+            "off":""
+        }
+    ]
+}

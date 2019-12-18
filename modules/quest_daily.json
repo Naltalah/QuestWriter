@@ -1,0 +1,15 @@
+{
+    "title" : "Daily Quest?",
+    "category" : "setting",
+    "format" : "SetDaily(%s);",
+    "handle" : ["quest_dailysetting"],
+    "fields" : [
+        {
+            "type" : "checkbox",
+            "id" : "quest_dailysetting",
+            "default" : " Check for Yes",
+            "on" : "1",
+            "off" : "0"
+        }
+    ]
+}

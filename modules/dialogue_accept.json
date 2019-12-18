@@ -1,0 +1,16 @@
+{
+    "title" : "Text On Accept",
+    "fields" : [
+        {
+            "id" : "quest_accept_text",
+            "type" : "textarea",
+            "required" : true,
+            "default" : "",
+            "placeholder" : "This text will be shown when the player accepts the quest",
+            "convert_text" : true
+        }
+    ],
+    "format" : "SetDialog(QSAY_BEGIN_YES,%s);",
+    "category" : "dialogue",
+    "handle" : ["quest_accept_text"]
+}

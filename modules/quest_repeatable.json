@@ -1,0 +1,15 @@
+{
+    "title" : "Repeatable?",
+    "category" : "setting",
+    "format" : "SetRepeat(%s);",
+    "handle" : ["quest_repeatsetting"],
+    "fields" : [
+        {
+            "id":"quest_repeatsetting",
+            "type":"checkbox",
+            "default":" Check for Yes",
+            "on" : "1",
+            "off" : "0"
+        }
+    ]
+}

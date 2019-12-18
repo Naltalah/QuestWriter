@@ -1,0 +1,16 @@
+{
+    "title":"Quest Log Complete Text",
+    "category":"state14",
+    "format":"SetDesc(%s);",
+    "handle":["quest_state14_text"],
+    "fields":[
+        {
+            "id" : "quest_state14_text",
+            "type" : "textarea",
+            "required" : true,
+            "default" : "",
+            "placeholder" : "This text will be shown in the Quest Log while the quest is finished",
+            "convert_text" : true
+        }
+    ]
+}

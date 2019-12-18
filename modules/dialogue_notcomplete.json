@@ -1,0 +1,16 @@
+{
+    "title" : "Text On Not Completed",
+    "fields" : [
+        {
+            "id" : "quest_failure_text",
+            "type" : "textarea",
+            "required" : true,
+            "default" : "",
+            "placeholder" : "This text will be shown when the player has not yet completed the quest",
+            "convert_text" : true
+        }
+    ],
+    "format" : "SetDialog(QSAY_END_FAILURE1,%s);",
+    "category" : "dialogue",
+    "handle" : ["quest_failure_text"]
+}

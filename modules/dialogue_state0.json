@@ -1,0 +1,16 @@
+{
+    "title" : "Quest Log Progression Text",
+    "fields" : [
+        {
+            "id" : "quest_state0_text",
+            "type" : "textarea",
+            "required" : true,
+            "default" : "",
+            "placeholder" : "This text will be shown in the Quest Log while the quest is not finished",
+            "convert_text" : true
+        }
+    ],
+    "format" : "SetDesc(%s);",
+    "category" : "state0",
+    "handle" : ["quest_state0_text"]
+}

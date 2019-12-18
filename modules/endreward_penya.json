@@ -1,0 +1,21 @@
+{
+    "title":"Reward Penya",
+    "category":"setting",
+    "format":"SetEndRewardGold(%d,%d);",
+    "handle":["endreward_gold_min","endreward_gold_max"],
+    "fields":[
+        {
+            "id":"endreward_gold_min",
+            "type":"input",
+            "small":true,
+            "bind":"endreward_gold_max",
+            "placeholder":"Min Penya"
+        },
+        {
+            "id":"endreward_gold_max",
+            "type":"input",
+            "small":true,
+            "placeholder":"Max Penya"
+        }
+    ]
+}

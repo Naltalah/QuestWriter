@@ -1,0 +1,22 @@
+{
+    "title":"Remove Item 1",
+    "category":"setting",
+    "format":"SetEndRemoveItem(0,%s,%d);",
+    "handle" : ["endcondition_itemremove_01_itemid","endcondition_itemremove_01_amount"],
+    "fields" : [
+        {
+            "id": "endcondition_itemremove_01_itemid",
+            "type" : "input",
+            "placeholder":"Item-ID",
+            "readonly":true,
+            "small":true
+        },
+        {
+            "id":"endcondition_itemremove_01_amount",
+            "type":"input",
+            "placeholder":"Amount",
+            "readonly":true,
+            "small":true
+        }
+    ]
+}

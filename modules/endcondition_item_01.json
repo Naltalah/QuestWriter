@@ -1,0 +1,28 @@
+{
+    "title":"Required Item 1",
+    "category":"setting",
+    "format":"SetEndCondItem(-1,0,-1,%s,%d);",
+    "handle" : ["endcondition_item_01_itemid","endcondition_item_01_amount"],
+    "fields" : [
+        {
+            "id": "endcondition_item_01_itemid",
+            "type" : "input",
+            "placeholder":"Item-ID",
+            "bind" : "endcondition_itemremove_01_itemid",
+            "small":true
+        },
+        {
+            "id":"endcondition_item_01_amount",
+            "type":"input",
+            "placeholder":"Amount",
+            "bind" : "endcondition_itemremove_01_amount",
+            "small":true
+        },
+        {
+            "id":"endcondition_item_01_triggerremove",
+            "type":"checkbox",
+            "default":"Also Remove Item",
+            "activate":["endcondition_itemremove_01_amount","endcondition_itemremove_01_itemid"]
+        }
+    ]
+}

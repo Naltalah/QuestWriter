@@ -1,0 +1,16 @@
+{
+    "title" : "Quest Name",
+    "format" : "SetTitle(%s);",
+    "category" : "title",
+    "handle" : ["quest_title"],
+    "fields" : [
+        {
+            "id" : "quest_title",
+            "type" : "input",
+            "required" : true,
+            "default" : "",
+            "placeholder" : "Quest Title",
+            "convert_text" : true
+        }
+    ]
+}

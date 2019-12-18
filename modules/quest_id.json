@@ -1,0 +1,14 @@
+{
+    "title" : "Quest ID",
+    "category" : "id",
+    "format" : "%s",
+    "fields" : [
+        {
+            "id" : "quest_id",
+            "type" : "input",
+            "placeholder" : "Quest ID",
+            "required" : true
+        }
+    ],
+    "handle" : ["quest_id"]
+}

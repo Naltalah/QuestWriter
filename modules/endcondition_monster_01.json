@@ -1,0 +1,20 @@
+{
+    "title":"Required Monster 1",
+    "category":"setting",
+    "format":"SetEndCondKillNPC(0,%s,%d);",
+    "handle":["endcond_monster_01_id","endcond_monster_01_amount"],
+    "fields":[
+        {
+            "id":"endcond_monster_01_id",
+            "type":"input",
+            "placeholder":"Monster-ID",
+            "small":true
+        },
+        {
+            "id":"endcond_monster_01_amount",
+            "type":"input",
+            "placeholder":"Amount",
+            "small":true
+        }
+    ]
+}

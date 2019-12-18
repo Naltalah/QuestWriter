@@ -1,0 +1,15 @@
+{
+    "title" : "Text On Begin (2nd Page)",
+    "fields" : [
+        {
+            "id" : "quest_begin_text02",
+            "type" : "textarea",
+            "default" : "",
+            "placeholder" : "This text will be shown as a second page when the player first talks to the NPC",
+            "convert_text" : true
+        }
+    ],
+    "format" : "SetDialog(QSAY_BEGIN2,%s);",
+    "category" : "dialogue",
+    "handle" : ["quest_begin_text02"]
+}

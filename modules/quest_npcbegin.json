@@ -1,0 +1,15 @@
+{
+    "title" : "Starting NPC",
+    "category" : "setting",
+    "format" : "SetCharacter(\"%s\");",
+    "handle" : ["quest_npcbegin_id"],
+    "fields" : [
+        {
+            "type" : "input",
+            "id" : "quest_npcbegin_id",
+            "placeholder" : "Starting NPC",
+            "required" : true,
+            "bind":"quest_npcend_id"
+        }
+    ]
+}

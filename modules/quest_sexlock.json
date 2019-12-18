@@ -1,0 +1,17 @@
+{
+    "title" : "Quest Sex",
+    "category" : "setting",
+    "format" : "SetBeginCondSex(%s);",
+    "handle" : ["quest_sexlock"],
+    "fields":[
+        {
+            "id":"quest_sexlock",
+            "type":"select",
+            "options":[
+                {"value":"","text":"Both Sexes"},
+                {"value":"SEX_MALE","text":"Male Only"},
+                {"value":"SEX_FEMALE","text":"Female Only"}
+            ]
+        }
+    ]
+}
